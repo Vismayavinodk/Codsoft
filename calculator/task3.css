@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrap {
+    width: 350px;
+    background: black;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+#display {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 15px;
+    text-align: right;
+    background: paleturquoise;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.button-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    background: rgb(103, 143, 130);
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: paleturquoise;
+}
+
+.cbtn, .mbtn {
+    background: rgb(41, 110, 138);
+}
+
+.mbtn:hover, .cbtn:hover {
+    background: rgb(92, 197, 197);
+}
